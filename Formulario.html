@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/breaking_bad.css">
+    <link rel="icon" href="icon/Breaking_Bad_icon.png">
+    <title>Formulario</title>
+</head>
+<body background="img/fondo.jpg" id="bodyformulario">
+    <br>
+    <img src="img/Intro.jpg" alt="" id="Formulario">
+    <h1 id="juego">Que comience el juego!!!!!</h1>
+    <!--Dado que lo que se especifica es que el título del formulario sea Breaking Bad- Que comience el juego!, me tomado la licencia de hacerlo entre una foto
+    y un h1 para que quedara esteticamente más "atractivo"-->
+    <br>
+    <form name="Formulario" method="post" action="mailto:raulrodriguez@proeducaglobal.com"> 
+    <fieldset>
+    <legend> Datos personales</legend>
+    <fieldset>        
+    Nombre* <label for="nombre"> <input type="text" name="Nombre" id="" placeholder="Introduce aqui tu nombre" required id="nombre"></label>
+    Apellidos* <input type="text" name="Apellidos" id="" placeholder="Introduce aqui tus apellidos" required id="apellidos">
+    </fieldset>
+    <br>
+    <fieldset>
+    Fecha Nacimiento
+    <label for=""><input type="date" name="Edad" id="edad"></label>
+    Sexo
+    <label for=""><input type="radio" value="M" name="sexo">M</label>
+    <label for=""><input type="radio" value="H" name="sexo">H</label>
+    </fieldset>
+    <br>
+    <fieldset>
+    Dirección <input type="text" name="Dirección" id="" placeholder="Introduce aqui tu calle, piso, número" id="direccion">
+    C.Postal <input type="tel" name="C.Postal" id="" placeholder="Introduce aqui tu codigo postal" min="1" max="5"maxlength="5" id="cp">
+    Ciudad <input list="Ciudad" placeholder="Introduce aqui tu ciudad">
+    <datalist id="Ciudad">
+        <!--No estan todas las ciudades de España pero estan muchas y para hacerse una idea de como queda yo creo más o menos se entiende.
+            He puesto las 60 ciudades con mas de 80.000 habitantes de España -->
+        <option value="Albacete">Albacete</option>
+        <option value="A Coruña">A Coruña</option>
+        <option value="Alicante">Alicante</option>
+        <option value="Almeria">Almeria</option>
+        <option value="Almeria">Almeria</option>
+        <option value="Avila">Avila</option>
+        <option value="Avilés">Avilés</option>
+        <option value="Badajoz">Badajoz</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Bilbao">Bilbao</option>
+        <option value="Burgos">Burgos</option>
+        <option value="Cáceres">Cáceres</option>
+        <option value="Cádiz">Cádiz</option>
+        <option value="Cartagena">Cartagena</option>
+        <option value="Castellón de la Plana">Castellón de la Plana</option>
+        <option value="Ciudad Real">Ciudad Real</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="Cuenca">Cuenca</option>
+        <option value="Elche">Elche</option>
+        <option value="El Puerto de Santa María">El Puerto de Santa María</option>
+        <option value="Fuengirola">Fuengirola</option>
+        <option value="Girona">Girona</option>
+        <option value="Granada">Granada</option>
+        <option value="Guadalajara">Guadalajara</option>
+        <option value="Huelva">Huelva</option>
+        <option value="Huesca">Huesca</option>
+        <option value="Jaén">Jaén</option>
+        <option value="Jerez de la Frontera">Jerez de la Frontera</option>
+        <option value="La Coruña">La Coruña</option>
+        <option value="Las Palmas de Gran Canaria">Las Palmas de Gran Canaria</option>
+        <option value="León">León</option>
+        <option value="Lérida">Lérida</option>
+        <option value="Logroño">Logroño</option>
+        <option value="Lugo">Lugo</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Málaga">Málaga</option>
+        <option value="Mallorca">Mallorca</option>
+        <option value="Marbella">Marbella</option>
+        <option value="Mérida">Mérida</option>
+        <option value="Murcia">Murcia</option>
+        <option value="Oviedo">Oviedo</option>
+        <option value="Palencia">Palencia</option>
+        <option value="Palma de Mallorca">Palma de Mallorca</option>
+        <option value="Pamplona">Pamplona</option>
+        <option value="Pontevedra">Pontevedra</option>
+        <option value="Pozuelo de Alarcón">Pozuelo de Alarcón</option>
+        <option value="Salamanca">Salamanca</option>
+        <option value="Santander">Santander</option>
+        <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+        <option value="Segovia">Segovia</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Soria">Soria</option>
+        <option value="Tarragona">Tarragona</option>
+        <option value="Teruel">Teruel</option>
+        <option value="Toledo">Toledo</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Valladolid">Valladolid</option>
+        <option value="Vigo">Vigo</option>
+        <option value="Vitoria">Vitoria</option>
+        <option value="Zaragoza">Zaragoza</option>
+        <option value="Zamora"></option>
+    </datalist>
+    </fieldset>
+    <br>
+    <fieldset>
+    DNI<input type="tel" min="1" max="8" name="DNI" id="" placeholder="Introduce aqui Dni sin letra" maxlength="8" id="dni">
+        
+        <select>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+            <option value="4">D</option>
+            <option value="5">E</option>
+            <option value="6">F</option>
+            <option value="7">G</option>
+            <option value="8">H</option>
+            <option value="9">I</option>
+            <option value="10">J</option>
+            <option value="11">K</option>
+            <option value="12">L</option>
+            <option value="13">M</option>
+            <option value="14">N</option>
+            <option value="15">O</option>
+            <option value="16">P</option>
+            <option value="17">Q</option>
+            <option value="18">R</option>
+            <option value="19">S</option>
+            <option value="20">T</option>
+            <option value="21">U</option>
+            <option value="22">V</option>
+            <option value="23">W</option>
+            <option value="24">X</option>
+            <option value="25">Y</option>
+            <option value="26">Z</option>
+        </select>
+    E-mail* <input type="email" name="email" id="" placeholder="Introduce aqui tu email" required id="email">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Elije tu personaje</legend>
+    <input list="lista" placeholder="Selecciona una opción">
+    <datalist id="lista">
+            <option value="Jessie Pinkman">Jessie Pinkman </option>
+            <option value="Walter White">Walter White</option>
+            <option value="Saul Goodman">Saul Goodman </option>
+            <option value="Gustavo Fring">Gustavo Fring</option>
+            <option value="Pollos Hermanos">Pollos Hermanos</option>
+            <option value="Otros Personajes">Otros Personajes</option>
+    </datalist>
+    </fieldset>
+    <br>
+    <fieldset>
+    <textarea name="Comentario" id="" cols="60" rows="5" placeholder="Deja aqui tus comentarios..." maxlength="240"></textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <input type="file" name="" id="" accept=".pdf,.txt,doc,docx,etc,epub,zip,rar,tar" value="Adjuntar archivos" multiple>
+    </fieldset>
+    </fieldset>
+    </form>
+
+</body>
+</html>

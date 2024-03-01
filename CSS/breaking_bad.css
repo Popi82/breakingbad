@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Breaking Bad";
+    src: url(../font/Breaking_Bad.ttf);
+}
+#bodyindex{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+}
+#bodyformulario{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#bodytabla{
+    background-attachment: fixed;
+    background-color: #637124;
+    /*El color de fondo que nos pides en la practica es #0c3e11 pero lo he cambiado para que quede esteticamente más bonito así como en la foto de la práctica*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#logo{
+    margin: 20px;
+    border:1px solid black;
+    width:200px;
+    height:200px;
+}
+#Titulo{
+    font-size: 42px;
+    color: white;
+    font-family: Breaking Bad ;
+}
+#poster{
+    background-attachment:fixed;
+    margin: 20px;
+    width:700px;
+    height:300px ;
+    border: 10px outset brown;
+    border-radius: 22px;
+
+}
+#juego{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+table{
+    margin: auto;
+    background-color: black;
+    padding: 10px;   
+}
+td{
+    border: 3px solid black;
+    width:90px;
+    height:90px;
+}    
+#tablapequeña{
+    border:2px solid black;
+    margin: auto;     
+} 
+.ajusteimagen{
+    width:90px;
+    height:90px;
+} 
+#imagen{
+    width:90px;
+    height:200px;
+}
+.imagentabla{
+    width:100%;
+    height:100%;
+}   
+.Grande{
+    margin:10px;
+    font-size:50px;
+    font-weight:bolder;
+}
+.Pequeña{
+    font-size:12px;
+    margin:10px;
+}
+.color{
+    background-color:#B8DC19;
+}   
+.morado{
+    background-color: rgb(177, 129, 202);
+}
+.imagen{
+    background-color:#D5EA73;
+}
+.colorpalo{
+    background-color: floralwhite;
+}
+.coloryellowgreen{
+    background-color: #89A419;    
+}
+.colorgrey{
+    background-color: #BCC49E;
+}
+.colorfondo{
+    background-color: #C7E538;
+}
+.colorverdeoscuro{
+    background-color:#637124;
+}
+.colorverdegris{
+    background-color: #828E50;
+}
+.colorverdepalo{
+    background-color: #D5EA73;
+}
+.colorblack{
+    background-color: black;
+}
+.colorverdeocre{
+    background-color:#C2C721;
+}    
+
